@@ -1,0 +1,7 @@
+Server : Dùng datainputstream readUTF dữ liệu từ client gửi đi
+Sau đó readLong để đọc kích thước của file để server biết khi nào đọc file xong -> DONE là đọc xong
+Sau đó đọc file
+Client:
+Tạo các stream để nhập dữ liệu từ console sau đó đọc lệnh người dùng nhập rồi thực thi các phương thức
+Ví dụ nếu người dùng nhập vào Exit thì sẽ gọi netOut.println("Exit )
+Sau đó thực hiện đọc dữ liệu sau đó gửi qua server
